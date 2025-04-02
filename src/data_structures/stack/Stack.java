@@ -1,8 +1,6 @@
 package data_structures.stack;
 
-import java.util.Stack;
-
-public class stack {
+public class Stack {
 
 
     public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class stack {
 
         /* Stackler LIFO mantıgı calısır (bulasık) */
 
-        Stack<Integer> myStack = new Stack<>();
+        java.util.Stack<Integer> myStack = new java.util.Stack<>();
 
         myStack.push(10);
         myStack.push(20);

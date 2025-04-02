@@ -1,12 +1,12 @@
 package data_structures.stack;
 
-public class stack_array {
+public class StackArray {
 
     private int[] arr;
     private int top;
     private int capacity;
 
-    public stack_array(int size) {
+    public StackArray(int size) {
         arr = new int[size];
         capacity = size;
         top = -1;
@@ -46,7 +46,7 @@ public class stack_array {
     }
 
     public static void main(String[] args) {
-        stack_array myStackArr = new stack_array(4);
+        StackArray myStackArr = new StackArray(4);
 
         myStackArr.push(10);
         myStackArr.push(20);

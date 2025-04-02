@@ -1,6 +1,6 @@
 package data_structures.stack;
 
-public class stack_linked_list {
+public class StackLinkedList {
 
     /* stackleri linked list olarak implement etme */
 

@@ -1,7 +1,5 @@
 package data_structures.array;
 
-import java.util.Arrays;
-
 /*
 *   int[] numbers;   // Preferred
     int numbers2[];   // Also valid, but less common
@@ -43,7 +41,7 @@ import java.util.Arrays;
 *
 * */
 
-public class arrays {
+public class Arrays {
 
     public static void reverseArray(int[] arr) {
         int left = 0, right = arr.length - 1;
@@ -81,7 +79,7 @@ public class arrays {
 
         reverseArray(arr);
 
-        System.out.println(Arrays.toString(arr));
+        System.out.println(java.util.Arrays.toString(arr));
 
     }
 }
