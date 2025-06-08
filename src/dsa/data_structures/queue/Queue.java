@@ -1,6 +1,6 @@
 package dsa.data_structures.queue;
 
-public class Queue {  // Renamed to "Queue" (Java convention: class names start with uppercase)
+public class Queue {
 
     /* Queue follows FIFO principle */
 

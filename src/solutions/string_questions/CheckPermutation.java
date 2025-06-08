@@ -62,7 +62,6 @@ public class CheckPermutation {
         System.out.print(checkPermutation(s1, s3));
         System.out.print(" = " + checkPermutation2(s1, s3) + "\n");
 
-
     }
 
 

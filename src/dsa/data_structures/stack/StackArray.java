@@ -37,11 +37,28 @@ public class StackArray {
         return arr[top];
     }
 
+    public int min() {
+        if (top == -1) {
+            System.out.println("stack is empty");
+            return -1;
+        }
+
+        int min = arr[0];
+
+        for (int i = 1; i <= top; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+
+        return min;
+    }
+
     public boolean isEmpty() {
         return top == -1;
     }
 
-    public int size(){
+    public int size() {
         return top + 1;
     }
 
@@ -57,7 +74,7 @@ public class StackArray {
         System.out.println("popped element: " + myStackArr.pop());
         System.out.println("new stack size: " + myStackArr.size());
         System.out.println("top element: " + myStackArr.peek());
-        System.out.println("top element: " + myStackArr.toString());
+        System.out.println("min element: " + myStackArr.min());
 
     }
 
